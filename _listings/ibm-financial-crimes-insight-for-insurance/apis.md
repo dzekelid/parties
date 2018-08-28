@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Parties
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/ibm-financial-crimes-insight-for-insurance/apis.md
 specificationVersion: "0.14"
 apis:
@@ -69,6 +69,102 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactentityrelatedpartiessystemidremotereference-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactentityrelatedpartiessystemidremotereference-get-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Insert party data
+    into the database
+  x-api-slug: ibmfciplatformfactparty-put
+  description: This method is used to insert party data into the database.  The XML
+    schema is defined in the PARTY.XSD file.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactparty-put-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Retrieve party data
+    from the database, for the id
+  x-api-slug: ibmfciplatformfactpartyid-get
+  description: This method is used to retrieve party data from the database
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactpartyid-get-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - This method is used
+    to retrieve the set of explicitly related parties and implicitly related entities
+    for the supplied externally sourced reference party
+  x-api-slug: ibmfciplatformfactentityrelatedpartiessystemidremotereference-get
+  description: |-
+    A data source must be configured in the appropriate server.xml to use ISII. Ensure that the following has been included:
+
+    &lt;dataSource beginTranForResultSetScrollingAPIs="false" id="ISIIDB" isolationLevel="TRANSACTION_READ_COMMITTED" jndiName="jdbc/isii"&gt;
+
+    &lt;jdbcDriver javax.sql.DataSource="com.ibm.db2.jcc.DB2XADataSource" libraryRef="DB2_LIB"/&gt;
+
+    &lt;properties.db2.jcc databaseName="ISII" password="${isii_db_pass}" portNumber="${isii_db_port}" serverName="${isii_host}" user="${isii_db_user}"/&gt;
+
+    &lt;connectionManager connectionTimeout="60s" maxIdleTime="3m" maxPoolSize="200" minPoolSize="0"/&gt;
+
+    &lt;/dataSource&gt;
+
+    Where password, portNumber, serverName, and user values are replaced with the appropriate properties or environment variables for your configuration.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactentityrelatedpartiessystemidremotereference-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactentityrelatedpartiessystemidremotereference-get-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Insert party data
+    into the database
+  x-api-slug: ibmfciplatformfactparty-put
+  description: This method is used to insert party data into the database.  The XML
+    schema is defined in the PARTY.XSD file.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactparty-put-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Retrieve party data
+    from the database, for the id
+  x-api-slug: ibmfciplatformfactpartyid-get
+  description: This method is used to retrieve party data from the database
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactpartyid-get-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Retrieve party data
+    from the database, for the id
+  x-api-slug: ibmfciplatformfactpartyid-get
+  description: This method is used to retrieve party data from the database
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactpartyid-get-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Insert party data
+    into the database
+  x-api-slug: ibmfciplatformfactparty-put
+  description: This method is used to insert party data into the database.  The XML
+    schema is defined in the PARTY.XSD file.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactparty-put-openapi.md
 - name: Financial Crimes Insight for Insurance public REST APIs - This method is used
     to retrieve the set of explicitly related parties and implicitly related entities
     for the supplied externally sourced reference party

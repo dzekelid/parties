@@ -1,0 +1,128 @@
+{
+	"name": "Streadata.io API Gallery - Parties",
+	"description": "This is a repository of parties APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/parties.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://parties.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "EhrScape",
+			"x-api-slug": "ehrscape",
+			"description": "Health app development shouldnt be harder than other verticals. EhrScape is all about making awesome healthcare apps easy to build and integrate into your environment. Healthcare computing that just works. EhrScape handles all the hard bits, including detailed clinical models, semantic interoperability, vendor independent data storage, health data query and more. Our mission is to empower you to build amazing healthcare apps and services. Welcome aboard. Were just getting started and weve got very big plans!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/EHRScape-Logo.png",
+			"humanURL": "https://www.ehrscape.com",
+			"baseURL": "http://rest.ehrscape.com//terminology-adapter/rest",
+			"tags": "Parties",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/ehrscape/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open Bank Project",
+			"x-api-slug": "open-bank-project",
+			"description": "The Open Bank Project is an open source API and App store for banks that empowers financial institutions to securely and rapidly enhance their digital offerings using an ecosystem of 3rd party applications and services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open-bank-project.png",
+			"humanURL": "https://openbankproject.com/",
+			"baseURL": "https:////open-banking/v2.0",
+			"tags": "Parties",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/open-bank-project/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Code Pipeline",
+			"x-api-slug": "aws-code-pipeline",
+			"description": "AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premise data sources, at specified intervals. With AWS Data Pipeline, you can regularly access your data where it&rsquo;s stored, transform and process it at scale, and efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon EMR.AWS Data Pipeline helps you easily create complex data processing workloads that are fault tolerant, repeatable, and highly available. You don&rsquo;t have to worry about ensuring resource availability, managing inter-task dependencies, retrying transient failures or timeouts in individual tasks, or creating a failure notification system. AWS Data Pipeline also allows you to move and process data that was previously locked up in on-premise data silos.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png",
+			"humanURL": "https://aws.amazon.com/datapipeline/",
+			"baseURL": ":///",
+			"tags": "Parties",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/aws-code-pipeline/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Parties",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IBM Financial Crimes Insight for Insurance",
+			"x-api-slug": "ibm-financial-crimes-insight-for-insurance",
+			"description": "IBM&reg; Financial Crimes Insight&reg; for Insurance V3.0, formerly known as IBM Counter Fraud Management for Insurance, is now being offered as a cloud service offering. It helps organizations analyze data to determine the fraud risk of claims, medical providers, and other business entities, manage the full investigation lifecycle, and report on outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png",
+			"humanURL": "https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN",
+			"baseURL": "https://fcihost.ibm.com:9443//",
+			"tags": "Parties",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/ibm-financial-crimes-insight-for-insurance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Parties",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Parties",
+	"include": [
+		{
+			"name": "EhrScape",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/ehrscape/apis.yaml"
+		},
+		{
+			"name": "Open Bank Project",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/open-bank-project/apis.yaml"
+		},
+		{
+			"name": "AWS Code Pipeline",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/aws-code-pipeline/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "IBM Financial Crimes Insight for Insurance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/ibm-financial-crimes-insight-for-insurance/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}

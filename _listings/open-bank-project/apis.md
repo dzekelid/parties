@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Parties
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/open-bank-project/apis.md
 specificationVersion: "0.14"
 apis:
@@ -37,6 +37,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/open-bank-project/party-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/open-bank-project/party-get-openapi.md
+- name: Account and Transaction API Specification - Get Party
+  x-api-slug: party-get
+  description: Get Party
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open-bank-project.png
+  humanURL: https://openbankproject.com/
+  baseURL: https:////open-banking/v2.0
+  tags: Stack Network, Banking
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/open-bank-project/party-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/open-bank-project/party-get-openapi.md
+- name: Account and Transaction API Specification - Get Account Party
+  x-api-slug: accountsaccountidparty-get
+  description: Get Party related to an account
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open-bank-project.png
+  humanURL: https://openbankproject.com/
+  baseURL: https:////open-banking/v2.0
+  tags: Stack Network, Banking
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/open-bank-project/accountsaccountidparty-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/parties/master/_listings/open-bank-project/accountsaccountidparty-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://onsched.api.gallery.streamdata.io
